@@ -5,15 +5,16 @@ mkdir external-addons (executar uma vez apenas)
 
 2.# Adicionar os repositórios da OCA como submódulos (Versão 18.0)
 
-
+git submodule add -b 18.0 https://github.com/OCA/server-tools.git external-addons/server-tools
+git submodule add -b 18.0 https://github.com/OCA/helpdesk.git external-addons/helpdesk
+git submodule add -b 18.0 https://github.com/OCA/reporting-engine.git external-addons/reporting-engine
 git submodule add -b 18.0 https://github.com/OCA/server-brand.git external-addons/server-brand
 git submodule add -b 18.0 https://github.com/OCA/purchase-workflow.git external-addons/purchase-workflow
 git submodule add -b 18.0 https://github.com/OCA/sale-workflow.git external-addons/sale-workflow
-git submodule add -b 18.0 https://github.com/OCA/hr-expense.git external-addons/hr-attendance
+git submodule add -b 18.0 https://github.com/OCA/hr-expense.git external-addons/hr-expense
 git submodule add -b 18.0 https://github.com/OCA/hr-attendance.git external-addons/hr-attendance
 git submodule add -b 18.0 https://github.com/OCA/hr-holidays.git external-addons/hr-holidays
 git submodule add -b 18.0 https://github.com/OCA/hr.git external-addons/hr
-
 git submodule add -b 18.0 https://github.com/OCA/fleet.git external-addons/fleet
 git submodule add -b 18.0 https://github.com/OCA/maintenance.git external-addons/maintenance
 git submodule add -b 18.0 https://github.com/OCA/timesheet.git external-addons/timesheet
@@ -25,6 +26,8 @@ git submodule add -b 18.0 https://github.com/OCA/field-service.git external-addo
 
 
 3. # Depois de terminar o download, precisas de "avisar" o teu repositório online que estas pastas existem
+
+git submodule update --init --recursive  
 
 git add .
 git commit -m "Instalação de custom módulos"
