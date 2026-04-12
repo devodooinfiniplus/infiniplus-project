@@ -1,0 +1,4 @@
+[submodule "external-addons/project"]
+	path = external-addons/project
+	url = https://github.com/OCA/project.git
+	branch = 18.0
