@@ -5,6 +5,10 @@ mkdir external-addons
 
 2.# Adicionar os repositórios da OCA como submódulos (Versão 18.0)
 git submodule add -b 18.0 https://github.com external-addons/project
+
+git submodule add -b 18.0 https://github.com/OCA/project.git external-addons/project
+
+
 git submodule add -b 18.0 https://github.com external-addons/field-service
 git submodule add -b 18.0 https://github.com external-addons/knowledge
 git submodule add -b 18.0 https://github.com external-addons/l10n-portugal
@@ -12,4 +16,12 @@ git submodule add -b 18.0 https://github.com external-addons/l10n-portugal
 3. # Depois de terminar o download, precisas de "avisar" o teu repositório online que estas pastas existem
 git add .
 git commit -m "Instalação de módulos base OCA para AVAC e Engenharia"
+
 git push origin main
+
+
+# Custom Addons Path
+
+/external-addons/project (assim se tiveres adicionado um modulo direto do github em que dentro de project estão todos os submodulos)
+
+/external-addons/project,/custom-addons (assim se o que está dentro de custom addons já é o submodulo)
