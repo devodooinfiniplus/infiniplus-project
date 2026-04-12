@@ -58,3 +58,11 @@
 	path = external-addons/helpdesk
 	url = https://github.com/OCA/helpdesk.git
 	branch = 18.0
+[submodule "external-addons/server-tools"]
+	path = external-addons/server-tools
+	url = https://github.com/OCA/server-tools.git
+	branch = 18.0
+[submodule "external-addons/hr-expense"]
+	path = external-addons/hr-expense
+	url = https://github.com/OCA/hr-expense.git
+	branch = 18.0
