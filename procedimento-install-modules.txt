@@ -23,14 +23,10 @@ git submodule add -b 18.0 https://github.com/OCA/payroll.git external-addons/pay
 git submodule add -b 18.0 https://github.com/OCA/project.git external-addons/project
 git submodule add -b 18.0 https://github.com/OCA/field-service.git external-addons/field-service
 
-
-
 3. # Depois de terminar o download, precisas de "avisar" o teu repositório online que estas pastas existem
   
-
 git add .
 git commit -m "Instalação de custom módulos"
-
 git push origin main
 
 
@@ -41,4 +37,35 @@ git push origin main
 /external-addons/project,/custom-addons (assim se o que está dentro de custom addons já é o submodulo)
 
 
-/custom-addons,/external-addons/project,/external-addons/field-service
+Addons Path SKYSIZE  *********************
+
+/custom-addons,/external-addons/project,/external-addons/field-service,/external-addons/payroll,/external-addons/web,/external-addons/timesheet,/external-addons/maintenance,/external-addons/fleet,/external-addons/hr,/external-addons/hr-holidays,/external-addons/hr-attendance,/external-addons/hr-expense,/external-addons/sale-workflow,/external-addons/purchase-workflow,/external-addons/server-brand,/external-addons/reporting-engine,/external-addons/helpdesk,/external-addons/server-tools
+
+
+
+
+
+
+,/external-addons/hr
+
+,/external-addons/hr-holidays
+
+,/external-addons/hr-attendance
+
+,/external-addons/hr-expense
+
+,/external-addons/sale-workflow
+
+,/external-addons/purchase-workflow
+
+,/external-addons/server-brand
+
+,/external-addons/reporting-engine
+
+,/external-addons/helpdesk
+
+,/external-addons/server-tools
+
+,/external-addons/
+
+,/external-addons/

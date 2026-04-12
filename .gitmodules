@@ -66,3 +66,7 @@
 	path = external-addons/hr-expense
 	url = https://github.com/OCA/hr-expense.git
 	branch = 18.0
+[submodule "external-addons/l10n-portugal"]
+	path = external-addons/l10n-portugal
+	url = https://github.com/OCA/l10n-portugal.git
+	branch = 18.0
