@@ -26,8 +26,7 @@ git submodule add -b 18.0 https://github.com/OCA/field-service.git external-addo
 
 
 3. # Depois de terminar o download, precisas de "avisar" o teu repositório online que estas pastas existem
-
-git submodule update --init --recursive  
+  
 
 git add .
 git commit -m "Instalação de custom módulos"
