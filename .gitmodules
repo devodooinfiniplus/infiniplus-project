@@ -10,3 +10,7 @@
 	path = external-addons/payroll
 	url = https://github.com/OCA/payroll.git
 	branch = 18.0
+[submodule "external-addons/web"]
+	path = external-addons/web
+	url = https://github.com/OCA/web.git
+	branch = 18.0
