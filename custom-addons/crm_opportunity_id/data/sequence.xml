@@ -1,0 +1,9 @@
+<odoo>
+    <record id="seq_crm_lead_opportunity" model="ir.sequence">
+        <field name="name">Oportunidades CRM</field>
+        <field name="code">crm.lead.opportunity</field>
+        <field name="prefix">P%(year)s.</field>
+        <field name="padding">4</field>
+        <field name="number_increment">1</field>
+    </record>
+</odoo>

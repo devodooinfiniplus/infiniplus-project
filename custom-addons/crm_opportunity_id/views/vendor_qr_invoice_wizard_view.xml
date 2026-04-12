@@ -1,0 +1,12 @@
+<odoo>
+    <record id="qr_invoice_wizard_form_inherit_crm" model="ir.ui.view">
+        <field name="name">qr.invoice.wizard.form.inherit.crm</field>
+        <field name="model">qr.invoice.wizard</field>
+        <field name="inherit_id" ref="vendor_qr_invoice.view_qr_invoice_wizard_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//group" position="inside">
+                <field name="crm_opportunity_id"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>

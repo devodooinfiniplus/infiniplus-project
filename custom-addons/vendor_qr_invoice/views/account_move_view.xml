@@ -1,0 +1,23 @@
+<odoo>
+    <data>
+        <record id="account_move_text_below_partner" model="ir.ui.view">
+            <field name="name">account.move.text.below.partner</field>
+            <field name="model">account.move</field>
+            <field name="inherit_id" ref="account.view_move_form"/>
+            <field name="arch" type="xml">
+            <!-- Botão no button_box -->
+                <xpath expr="//div[@name='button_box']" position="inside">
+                    <button
+                        name="action_open_qr_scanner"
+                        type="object"
+                        class="oe_stat_button"
+                        icon="fa-qrcode">
+                            <div class="o_stat_info">
+                                <span class="o_stat_text">Lançar Despesa via QRCode</span>
+                            </div>
+                    </button>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

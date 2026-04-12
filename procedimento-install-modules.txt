@@ -1,19 +1,20 @@
 abril o terminal no VSCODE ( Ctrl+Shift+ç )
 
 1.# Criar a pasta onde vão ficar os módulos da comunidade
-mkdir external-addons
+mkdir external-addons (executar uma vez apenas)
 
 2.# Adicionar os repositórios da OCA como submódulos (Versão 18.0)
-git submodule add -b 18.0 https://github.com external-addons/project
+
+git submodule add -b 18.0 https://github.com/OCA/payroll.git external-addons/payroll
+
 
 git submodule add -b 18.0 https://github.com/OCA/project.git external-addons/project
-
-
 git submodule add -b 18.0 https://github.com/OCA/field-service.git external-addons/field-service
 
 
 
 3. # Depois de terminar o download, precisas de "avisar" o teu repositório online que estas pastas existem
+
 git add .
 git commit -m "Instalação de módulos base OCA para AVAC e Engenharia"
 

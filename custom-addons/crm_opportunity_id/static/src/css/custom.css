@@ -1,0 +1,10 @@
+.o_execution_block {
+    min-width: 80px;      /* garante largura parecida com os outros blocos */
+}
+.o_execution_block .o_field_label {
+    font-size: 0.8rem;    /* tamanho semelhante ao das legendas Odoo */
+    color: var(--o-color-8); /* tom de cinza padrão */
+}
+.o_execution_block .o_field_value {
+    font-weight: 500;
+}

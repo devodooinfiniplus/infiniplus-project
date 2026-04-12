@@ -1,0 +1,25 @@
+<odoo>
+  <record id="view_order_form_inherit_lead_info" model="ir.ui.view">
+    <field name="name">sale.order.form.inherit.lead.info</field>
+    <field name="model">sale.order</field>
+    <field name="inherit_id" ref="sale.view_order_form"/>
+    <field name="arch" type="xml">
+      <xpath expr="//sheet//div[@class='oe_title']/h1" position="after">
+
+        <button name="action_open_opportunity"
+                type="object"
+                class="btn btn-link text-start fs-1 m-0 p-0 d-block"
+                invisible="opportunity_id == False">
+            <field name="opp_concat" readonly="1"/>
+        </button>
+
+        <button name="action_open_fieldservice_location"
+                type="object"
+                class="btn btn-link text-start fs-1 m-0 p-0 d-block"
+                invisible="crm_fieldservice_location == False">
+            <field name="crm_fieldservice_location_name" readonly="1"/>
+        </button>
+      </xpath>
+    </field>
+  </record>
+</odoo>

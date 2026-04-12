@@ -1,0 +1,1 @@
+from . import vendor_qr_invoice_wizard

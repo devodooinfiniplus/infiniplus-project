@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+    <t t-name="expense_qr.Scanner">
+        <div class="o_qr_scanner d-flex flex-column align-items-center">
+            <video t-ref="video"
+                   autoplay="autoplay"
+                   playsinline="playsinline"
+                   style="width:100%; max-height:70vh"/>
+            <p class="text-center fw-bold mt-2">
+                Aponte a câmara para o QR Code da fatura (AT)
+            </p>
+        </div>
+    </t>
+</templates>
