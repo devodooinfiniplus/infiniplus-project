@@ -18,5 +18,6 @@
             "expense_qr_string/static/src/xml/templates.xml"
         ]
     },
-    "installable": True
+    "installable": True,
+    "application": True
 }
