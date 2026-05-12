@@ -1,2 +1,2 @@
 # infiniplus-project
-A new repository created by Skysizes
+A new repository created by Skysize
