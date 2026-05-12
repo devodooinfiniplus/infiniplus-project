@@ -7,5 +7,5 @@
        'views/fsm_location_view.xml',
     ],
     "installable": True,
-    "application": False,
+    "application": True,
 }
