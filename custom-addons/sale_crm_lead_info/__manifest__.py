@@ -9,5 +9,5 @@
         "views/sale_order_view.xml"
     ],
     "installable": True,
-    "application": False,
+    "application": True,
 }
